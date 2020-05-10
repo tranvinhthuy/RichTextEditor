@@ -133,7 +133,7 @@ open class RichTextEditor : FullscreenWebView {
         setEditorFontFamily(getDefaultFontFamily())
     }
 
-    protected open fun getDefaultFontFamily() = "serif"
+    protected open fun getDefaultFontFamily() = "sans-serif"
 
 
     override fun onSaveInstanceState(): Parcelable? {
